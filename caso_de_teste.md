@@ -220,7 +220,7 @@ Valores de fronteira testados: $\{0.0 \text{ MB}, 5.0 \text{ MB}, 5.1 \text{ MB}
 * **Duração Estimada:** 5 minutos
 * **Executado:** Não
 * **Responsável:** João Pedro Dantas Magalhães
-* **Data:** 13/09/2026
+* **Data:** 
 * **Procedimentos:** Enviar requisições `POST`, `PUT` e `DELETE` para o endpoint `/api/conteudos/` utilizando tokens JWT pertencentes a usuários com perfil de convivente padrão e tokens de usuários anônimos.
 * **Critérios de Aceitação:** O sistema deve barrar 100% das tentativas de escrita com respostas HTTP 401 Unauthorized ou HTTP 403 Forbidden, garantindo que somente curadores alterem o repositório educacional (RN01).
 * **Resultado:** Não executado.
@@ -230,8 +230,8 @@ Valores de fronteira testados: $\{0.0 \text{ MB}, 5.0 \text{ MB}, 5.1 \text{ MB}
 * **Automatizado:** Sim
 * **Duração Estimada:** 10 minutos
 * **Executado:** Não
-* **Responsável:** Ramon Couto Santos
-* **Data:** 13/09/2026
+* **Responsável:** 
+* **Data:** 
 * **Procedimentos:** Executar requisições concorrentes de leitura (`GET /api/conteudos/`) simulando 50 acessos simultâneos de conviventes em ambiente Render.
 * **Critérios de Aceitação:** O tempo médio de resposta para a carga completa do payload do artigo deve ser inferior a 1,5 segundo em 95% das requisições.
 * **Resultado:** Não executado.
