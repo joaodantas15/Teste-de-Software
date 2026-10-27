@@ -6,7 +6,7 @@ if a + b > c and a + c > b and b + c > a:
     if a == b == c:
         print("Triângulo equilátero")
     elif a == b or a == c or b == c:
-        print("Tirângulo isósceles")
+        print("Triângulo isósceles")
     else:
         print("Triângulo escaleno")
 
