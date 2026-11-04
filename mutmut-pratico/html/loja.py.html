@@ -1,0 +1,12 @@
+<html><body><h1>loja.py</h1>Killed 11 out of 12 mutants<h2>Survived</h2>Survived mutation testing. These mutants show holes in your test suite.<h3>Mutant 2</h3><pre>--- loja.py
++++ loja.py
+@@ -1,7 +1,7 @@
+ def calcular_desconto(valor_total: float, fidelidade: bool) -> float:
+     """Aplica 10% de desconto para compras acima de R$ 100,00.
+     Clientes do programa de fidelidade ganham 5% extra."""
+-    if valor_total > 100.0:
++    if valor_total > 101.0:
+         desconto = 0.10
+     else:
+         desconto = 0.0
+</pre></body></html>
